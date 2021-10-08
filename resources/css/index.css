@@ -1,0 +1,141 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #292B2E;
+}
+
+.logo {
+    position: relative;
+}
+
+.navbar {
+    border-bottom: 1px solid #E1E4E8;
+}
+
+.navbar-brand {
+    font-size: 1.438rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    letter-spacing: 2px;
+    color: #292B2E;
+    padding-top: 10px;
+}
+
+.navbar-brand:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 9px;
+    left: 0;
+    top: 12;
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+}
+
+.heading {
+    font-weight: 600;
+    line-height: 3rem;
+    color: #252B42;
+}
+
+
+.subtitle {
+    font-size: 1.125rem;
+    line-height: 1.05rem;
+    color: #858585;
+}
+
+.accordion-title {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.accordion p,
+.accordion i{
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1px;
+    color: #737373;
+}
+
+.accordion .card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+}
+
+.accordion i{
+    font-size: 1.5rem;
+}
+
+.accordion .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-text{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+
+.accordion-text i{
+    font-size: .50rem;
+    color: #C4C4C4;
+
+}
+
+.card-body .card-summary {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.2px;
+    color: #858585;
+}
+
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+
+.carousel-inner {
+    padding: 0 10px;
+}
+
+.carousel-control {
+    background: #F6F8FA;
+    border-radius: 10px;
+    width: 20px;
+    min-height: 720px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #737373;
+    
+}
+.magazine-tile img:focus,
+.magazine-tile img:hover {
+  filter: brightness(50%) saturate(150%);
+}
+ 
+ 
+.magazine-tile img{
+    height: 462px;
+    width: 1172px;
+    object-fit: cover;
+     }

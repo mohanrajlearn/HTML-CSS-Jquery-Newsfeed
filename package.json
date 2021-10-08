@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^5.2.0"
+  }
+}
